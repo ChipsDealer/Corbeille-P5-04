@@ -13,7 +13,6 @@ public class GraphicsBuilder {
 	}
 	public void applyModelToGraphic(final Graphics graphics, final ImageObserver observer) {
 		
-		
 	}
 	private void buildEmptySky() {
 		
@@ -24,9 +23,9 @@ public class GraphicsBuilder {
 	}
 	 public int getGlobalWidth() {
 		 return 5;
-	 }
+	}
 	 
 	 public int getGlobalHeight() {
 		 return 5;
-	 }
+	}
 }
