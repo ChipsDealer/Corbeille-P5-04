@@ -1,6 +1,7 @@
 package jpu2016.dogfight.view;
+import java.lang.*;
 
-public class DogfightView {
+public class DogfightView implements IViewSystem, java.lang.Runnable{
 
 	public DogfightView(IOrderPerformer orderPerformer, IDogfightModel dogfightModel, Observable observable) {
 		// TODO Auto-generated constructor stub

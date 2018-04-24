@@ -1,11 +1,12 @@
 package jpu2016.dogfight.view;
 
+import jpu2016.dogfight.model;
 import java.awt.image.*;
 import jpu2016.dogfight.model;
 
 
 
-public class GraphicsBuilder {
+public class GraphicsBuilder implements jpu2016.gameframe.IGraphicsBuilder {
 		
 	public GraphicsBuilder(final IDogfightModel dogfightmodel) {
 		// TODO Auto-generated constructor stub
@@ -18,7 +19,7 @@ public class GraphicsBuilder {
 		
 	}
 	
-	private void drawMobile(final IMoblie mobile, final Graphics graphics, final ImageObserver observer) {
+	private void drawMobile(final IMobile mobile, final Graphics graphics, final ImageObserver observer) {
 		
 	}
 	 public int getGlobalWidth() {
