@@ -117,71 +117,17 @@ public class Mobile implements IMobile{
 		return dogfightModel;
 	}
 
-
+/*
 	public void setDogfightModel(IDogfightModel dogfightModel) {
-		this.dogfightModel = dogfightModel;
 	}
+*/
 
-
+	
+	
+	//Méthode de l'interface
 	@Override
 	public void setDogfightModel(DogfightModel dogfightModel) {
 		// TODO Auto-generated method stub
 		
 	}
-
-
-
-
-
-
-
-
-	
-
-	
-	
-	
-	/**********Méthode de l'interface************/
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-	
-	
-
 }

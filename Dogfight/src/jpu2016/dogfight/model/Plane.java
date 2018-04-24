@@ -1,6 +1,11 @@
 package jpu2016.dogfight.model;
 
-public class Plane {
+import java.awt.Dimension;
+
+public class Plane extends Mobile{
+
+
+
 
 	private static int SPEED = 2;
 	private static int WIDTH = 100;
@@ -8,8 +13,11 @@ public class Plane {
 	
 	private int player;
 	
-	//Constructeur
-	public Plane(int player, Direction direction, Position position, String image) {
+
+	
+	public Plane(Direction direction, Position position, Dimension dimension, int speed, String Image) {
+		super(direction, position, dimension, speed, Image);
+		// TODO Auto-generated constructor stub
 	}
 	
 	

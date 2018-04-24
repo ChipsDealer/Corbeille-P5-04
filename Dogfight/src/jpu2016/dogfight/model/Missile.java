@@ -1,21 +1,26 @@
 package jpu2016.dogfight.model;
 
-public class Missile {
+import java.awt.Dimension;
+
+public class Missile extends Mobile{
 	
+
+
 	private static int SPEED=4;
 	private static int WIDTH=30;
 	private static int HEIGHT =10;
 	private static int MAX_DISTANCE_TRAVEL = 1400;
-	private String Image ="missile";
+	private String IMAGE ="missile";
 	
 	private int distanceTraveled = 0;
 	
 	
-	
+	public Missile(Direction direction, Position position, Dimension dimension, int speed, String Image) {
+		super(direction, position, dimension, speed, Image);
+	}
 	
 
-	public Missile(Direction direction, Dimension dimension) {
-	}
+	
 	
 	public static int getWidthWithADirection(Direction direction) {
 		return 5;
@@ -32,13 +37,6 @@ public class Missile {
 	public Boolean isWeapon() {
 		return true;
 	}
-	
-	
-	
-	
-	
-	
-	
 	
 
 	public static int getSPEED() {
@@ -73,13 +71,8 @@ public class Missile {
 		MAX_DISTANCE_TRAVEL = mAX_DISTANCE_TRAVEL;
 	}
 
-	public String getImage() {
-		return Image;
-	}
 
-	public void setImage(String image) {
-		Image = image;
-	}
+	
 
 	public int getDistanceTraveled() {
 		return distanceTraveled;
@@ -87,6 +80,20 @@ public class Missile {
 
 	public void setDistanceTraveled(int distanceTraveled) {
 		this.distanceTraveled = distanceTraveled;
+	}
+
+
+
+
+	public String getIMAGE() {
+		return IMAGE;
+	}
+
+
+
+
+	public void setIMAGE(String iMAGE) {
+		IMAGE = iMAGE;
 	}
 	
 	

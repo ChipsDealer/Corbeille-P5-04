@@ -39,7 +39,7 @@ public class Position {
 		return maxX;
 	}
 
-	public void setMaxX(double maxX) {
+	protected void setMaxX(double maxX) {
 		this.maxX = maxX;
 	}
 
@@ -47,7 +47,7 @@ public class Position {
 		return maxY;
 	}
 
-	public void setMaxY(double maxY) {
+	protected void setMaxY(double maxY) {
 		this.maxY = maxY;
 	}
 	

@@ -11,8 +11,15 @@ public class DogfightModel extends java.util.Observable implements IDogfightMode
 	/******************************/
 	
 	IArea a1;
-	ArrayList<IMobile> a11;
 	
+	
+	
+	//Collection d'objets
+	private ArrayList<IMobile> mobiles;
+	
+	
+	/******************************/
+
 	
 	private IMobile mobiles;
 	
@@ -59,6 +66,41 @@ public class DogfightModel extends java.util.Observable implements IDogfightMode
 	public void buildArea(java.awt.Dimension dimension) {
 		// TODO Auto-generated method stub
 		
+	}
+
+
+	public Sky getSky() {
+		return sky;
+	}
+
+
+	public void setSky(Sky sky) {
+		this.sky = sky;
+	}
+
+
+	public IArea getA1() {
+		return a1;
+	}
+
+
+	public void setA1(IArea a1) {
+		this.a1 = a1;
+	}
+
+
+	public ArrayList<IMobile> getA11() {
+		return a11;
+	}
+
+
+	public void setA11(ArrayList<IMobile> a11) {
+		this.a11 = a11;
+	}
+
+
+	public void setMobiles(IMobile mobiles) {
+		this.mobiles = mobiles;
 	}
 	
 	
