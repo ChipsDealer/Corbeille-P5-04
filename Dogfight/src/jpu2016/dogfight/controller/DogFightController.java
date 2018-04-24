@@ -27,4 +27,8 @@ public class DogFightController implements IOrderPerformer {
 	private void gameLoop() {
 		
 	}
+	
+	private IDogfightModel dogfightModel;
+	
+	private IViewSystem viewSystem;
 }

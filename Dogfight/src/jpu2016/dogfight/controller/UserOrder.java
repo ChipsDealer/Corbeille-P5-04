@@ -4,15 +4,18 @@ public class UserOrder implements IUserOrder {
 	
 	private int player;
 	
+	private Order order;
+	
 	public void UserOrder(int player, Order order) {
 		
 	}
-	
-	public Order getOrder();{
-		
+
+	public int getPlayer() {
+		return player;
 	}
-	
-	public int getPlayer();{
-		
+
+
+	public Order getOrder() {
+		return order;
 	}
 }
