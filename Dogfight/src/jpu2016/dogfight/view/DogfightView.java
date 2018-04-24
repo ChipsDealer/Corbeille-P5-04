@@ -1,5 +1,8 @@
 package jpu2016.dogfight.view;
 import java.lang.Runnable;
+
+import jpu2016.dogfight.controller.IOrderPerformer;
+import jpu2016.dogfight.model.IDogfightModel;
 import jpu2016.gameframe.*;
 import java.util.*;
 
