@@ -9,11 +9,7 @@ public class DogFightController implements IOrderPerformer {
 
 	private IViewSystem viewSystem;
 
-<<<<<<< HEAD
 	private static int TIME_SLEEP = 30;
-=======
-	private int TIME_SLEEP;
->>>>>>> 99b37a79fc09322e714bcc0e4fa8f49b8c2c137e
 
 	public DogfightController(IDogfightModel dogfightModel) {
 
