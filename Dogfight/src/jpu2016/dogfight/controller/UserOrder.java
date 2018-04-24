@@ -12,11 +12,11 @@ public class UserOrder implements IUserOrder {
 	}
 
 	public int getPlayer() {
-		return player;
+		return this.player;
 	}
 
 
 	public Order getOrder() {
-		return order;
+		return this.order;
 	}
 }
