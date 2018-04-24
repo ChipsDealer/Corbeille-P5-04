@@ -65,10 +65,10 @@ public class Mobile implements IMobile{
 		
 		
 		//Si ils ont parcourue la distance max ils sont détruit
-		
+		/*
 		if() {
 			
-		}
+		} */
 	}
 	
 	public void placeInArea(IArea area) {
@@ -109,6 +109,8 @@ public class Mobile implements IMobile{
 		
 		//Retourne false tout le temps
 		return false;
+		
+		
 	}
 	
 	public Boolean isWeapon() {
