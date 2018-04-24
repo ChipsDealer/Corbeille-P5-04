@@ -32,7 +32,7 @@ public class GraphicsBuilder implements jpu2016.gameframe.IGraphicsBuilder {
 	 public int getGlobalHeight() {
 		 return 5;
 	}
-	private IDogfightModel dogfightModel();
+	
 		
 
 }
