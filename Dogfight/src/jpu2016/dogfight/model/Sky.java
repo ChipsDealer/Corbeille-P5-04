@@ -16,7 +16,7 @@ public class Sky implements IArea{
 	
 	
 	//Constructeur
-	public Sky(final Dimension dimension) {
+	public Sky(final jpu2016.dogfight.model.Dimension p_dimension) {
 		
 	}
 	

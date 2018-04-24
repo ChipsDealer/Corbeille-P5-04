@@ -3,6 +3,7 @@ package jpu2016.dogfight.model;
 import java.util.*;
 import java.awt.*;
 
+
 public class DogfightModel extends java.util.Observable implements IDogfightModel{
 	
 	private Sky sky;
@@ -21,7 +22,7 @@ public class DogfightModel extends java.util.Observable implements IDogfightMode
 	/******************************/
 
 	
-	private IMobile mobiles;
+	private IMobile mobiles1;
 	
 	
 	/******************************/
@@ -37,7 +38,7 @@ public class DogfightModel extends java.util.Observable implements IDogfightMode
 	
 	
 	public void buildArea(final Dimension dimension) {
-		
+		this.sky = new Sky(dimension);
 	}
 	
 	public void addMobile(final IMobile Mobile) {
@@ -50,11 +51,11 @@ public class DogfightModel extends java.util.Observable implements IDogfightMode
 	}
 	
 	public ArrayList<IMobile> getMobiles(){
-		return a11;
+		return mobiles;
 	}
 	
 	public IMobile getMobileByPlayer(final int player) {
-		return mobiles;
+		return mobiles1;
 	}
 	
 	public void setMobilesHavesMoved() {
@@ -90,17 +91,17 @@ public class DogfightModel extends java.util.Observable implements IDogfightMode
 
 
 	public ArrayList<IMobile> getA11() {
-		return a11;
+		return mobiles;
 	}
 
 
 	public void setA11(ArrayList<IMobile> a11) {
-		this.a11 = a11;
+		this.mobiles = mobiles;
 	}
 
 
-	public void setMobiles(IMobile mobiles) {
-		this.mobiles = mobiles;
+	public void setMobiles(IMobile mobiles1) {
+		this.mobiles1 = mobiles1;
 	}
 	
 	

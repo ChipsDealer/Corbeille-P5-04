@@ -23,7 +23,7 @@ public interface IMobile {
 	
 	
 	/*********/
-	public void setDogfightModel(DogfightModel dogfightModel);
+	public void setDogfightModel(IDogfightModel dogfightModel);
 	/*********/
 
 	

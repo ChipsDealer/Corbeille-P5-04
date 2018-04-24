@@ -4,13 +4,17 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.Point;
+import java.util.ArrayList;
 
 public class Mobile implements IMobile{
 
 	private int speed;
 	
 	
-	
+	//Création d'une collection de 4 objets
+	private ArrayList<Image> images;
+
+
 	private Direction direction;
 	
 	private Dimension dimension;
@@ -42,22 +46,29 @@ public class Mobile implements IMobile{
 		return position;
 	}
 	
-
 	
 	public int getSpeed() {
-		return SPEED;
+		return 5;
 	}
 	
 	public int getWidth() {
-		return WIDTH;
+		return 5;
 	}
 
 	public int getHeight() {
-		return HEIGHT;
+		return 5;
 	}
 	
+	
+	//Permet de calculer la distance parcourue
 	public void move() {
 		
+		
+		//Si ils ont parcourue la distance max ils sont détruit
+		
+		if() {
+			
+		}
 	}
 	
 	public void placeInArea(IArea area) {
@@ -94,7 +105,10 @@ public class Mobile implements IMobile{
 	
 	
 	public Boolean hit() {
-		return true;
+		
+		
+		//Retourne false tout le temps
+		return false;
 	}
 	
 	public Boolean isWeapon() {
@@ -117,17 +131,12 @@ public class Mobile implements IMobile{
 		return dogfightModel;
 	}
 
-/*
+
 	public void setDogfightModel(IDogfightModel dogfightModel) {
 	}
-*/
 
-	
-	
-	//Méthode de l'interface
-	@Override
-	public void setDogfightModel(DogfightModel dogfightModel) {
-		// TODO Auto-generated method stub
-		
-	}
+
 }
+	
+	
+	

@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 public interface IDogfightModel {
 	
-	private Sky sky;
 	
 	public IArea getArea();
 	
