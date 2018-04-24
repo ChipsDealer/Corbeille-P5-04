@@ -1,9 +1,11 @@
 package jpu2016.gameframe;
 import javax.swing.JFrame;
-import java.awt.event.KeyListener; //* à la place de KeyListener
+import java.awt.event.*;
+import java.util.Observable;
 
-public class GameFrame {
-
+public class GameFrame extends JFrame implements KeyListener{
+	
+	private IEventPerformer eventPerformer;
 	public GameFrame(String title, IEventPerformer performer, IGraphicsBuilder graphicBuilder, Observable observable) {
 		// TODO Auto-generated constructor stub
 	}
@@ -15,6 +17,15 @@ public class GameFrame {
 	}
 	public void keyTyped(KeyEvent keyEvent) {
 		
+	}
+	
+	
+	
+	public IEventPerformer getEventPerformer() {
+		return eventPerformer;
+	}
+	public void setEventPerformer(IEventPerformer eventPerformer) {
+		this.eventPerformer = eventPerformer;
 	}
 
 }

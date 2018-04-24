@@ -1,15 +1,31 @@
 package jpu2016.gameframe;
 
-import javax.swing.JPanel; //erreur dans l'énoncé?
-import java.util.Observer;
+import java.awt.Graphics;
+//import javax.swing.JPanel; 
+//import java.util.Observer;
 import java.util.Observable;
 
-public class GamePanel {
+public class GamePanel extends javax.swing.JPanel implements java.util.Observer{
 
-	//public update(Observable observer); //erreur dans l'énoncé?
+	private IGraphicsBuilder graphicsBuilder; 
+	
 	public GamePanel(IGraphicsBuilder graphicBuilder) {
 		// TODO Auto-generated constructor stub
 	}
 	
+	public void update(Observable observer) {
+		
+	}
+	
+	public void paintComponent(Graphics graphic) {
+		
+	}
+
+	@Override
+	public void update(Observable o, Object arg) {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 }
