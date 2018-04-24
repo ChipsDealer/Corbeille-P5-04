@@ -9,7 +9,7 @@ public class Plane {
 	private int player;
 	
 	//Constructeur
-	public Plane(final int player, final Direction direction, final Position position, final String image) {
+	public Plane(int player, Direction direction, Position position, String image) {
 	}
 	
 	
@@ -20,6 +20,46 @@ public class Plane {
 	
 	public Boolean hit() {
 		return true;
+	}
+
+
+	public int getPlayer() {
+		return player;
+	}
+
+
+	public void setPlayer(int player) {
+		this.player = player;
+	}
+
+
+	public static int getSPEED() {
+		return SPEED;
+	}
+
+
+	public static void setSPEED(int sPEED) {
+		SPEED = sPEED;
+	}
+
+
+	public static int getWIDTH() {
+		return WIDTH;
+	}
+
+
+	public static void setWIDTH(int wIDTH) {
+		WIDTH = wIDTH;
+	}
+
+
+	public static int getHEIGHT() {
+		return HEIGHT;
+	}
+
+
+	public static void setHEIGHT(int hEIGHT) {
+		HEIGHT = hEIGHT;
 	}
 	
 	

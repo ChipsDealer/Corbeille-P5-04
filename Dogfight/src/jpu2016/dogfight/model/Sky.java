@@ -4,10 +4,12 @@ import java.awt.Color;
 import java.awt.Image;
 import java.awt.Dimension;
 
-public class Sky {
+public class Sky implements IArea{
 
 	
-	Image img;
+	private Image image;
+	
+	private Dimension dimension;
 
 	
 	
@@ -24,7 +26,15 @@ public class Sky {
 	
 	
 	public Image getImage() {
-		return img;
+		return image;
+	}
+
+	public void setImage(Image image) {
+		this.image = image;
+	}
+
+	public void setDimension(Dimension dimension) {
+		this.dimension = dimension;
 	}
 	
 	
