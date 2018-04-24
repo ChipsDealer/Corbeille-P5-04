@@ -11,8 +11,8 @@ public class DogFightController implements IOrderPerformer {
 
 	private static int TIME_SLEEP = 30;
 
-	public DogfightController(IDogfightModel dogfightModel) {
-
+	public DogFightController(IDogfightModel dogfightModel) {
+		this.dogfightModel = dogfightModel;
 	}
 
 	public void orderPerform(UserOrder userOrder) {
