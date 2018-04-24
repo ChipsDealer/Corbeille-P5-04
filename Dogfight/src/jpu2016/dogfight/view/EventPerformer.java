@@ -1,6 +1,5 @@
 package jpu2016.dogfight.view;
 import java.awt.event.KeyEvent;
-
 import jpu2016.dogfight.controller.*;
 
 
